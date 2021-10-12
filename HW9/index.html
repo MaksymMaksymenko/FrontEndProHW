@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">   
+  <title>JS8</title>
+</head>
+<body>
+  <!-- <div>
+    <input name="name"  placeholder="Введите имя" size="25">
+    <input name="lastName"  placeholder="Введите фамилию" size="25">
+    <input name="mobile"  placeholder="Введите номер телефона" size="25">
+    <button id="btn">
+      Send
+    </button>
+  </div> 
+  <ul id="container"></ul> -->
+  <table>
+		<tr>
+			<td>Name:</td>
+			<td><input type="text" id="nameid" required></td>
+		</tr>
+		<tr>
+			<td>Last Name:</td>
+			<td><input type="text" id="lastName" required>
+    </tr>
+    <tr>
+      <td> Mobile Number: </td>
+      <td><input type="tel" placeholder="+380505050505"id="mobile" required>
+			<input type="button" id="add" value="Add" onclick="addData()"></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</table>            
+            <br><br>
+                
+                <table id="dynamictable"  border ="1" cellpadding="2">
+		<tr>			
+			<td><b>Name</b></td>
+			<td><b>Last Name</b></td>
+      <td><b>Mobile Number</b></td>
+		</tr>
+	</table>
+  <script src="./app.js"></script> 
+</body>
+</html>
