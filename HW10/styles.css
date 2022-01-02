@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+  height: 200px;
+  background-color: aliceblue;
+}
+
+.todo {
+  width: 80%;
+  padding: 15px 2%;
+  display: flex;
+  justify-content: space-between;
+  background-color: lightblue;
+}
+
+.close {
+  cursor: pointer;
+  font-weight: bold;
+}
+.done {
+    background-color: lightgreen;
+}
+.table {
+  display: flex;
+  border: 2px solid black;
+  flex-direction: row;
+  width: 500px;
+  height: 150px;
+}
+.oneSquare {
+  background-color: chartreuse;
+  width: 125px;
+  margin:3px;
+}
+.twoSquare {
+  background-color: coral;
+  width: 125px;
+  margin:3px;
+}
+.threeSquare {
+  background-color: crimson;
+  width: 125px;
+  margin:3px;
+}
+.fourSquare {
+  background-color: white;
+  width: 125px;
+  margin:3px;
+}
+
+.liColor {
+  background-color: blue;
+  color:white;
+}
